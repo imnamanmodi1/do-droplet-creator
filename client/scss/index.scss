@@ -7,3 +7,17 @@ h1 {
   color: gray;
   margin-top: 50px;
 }
+
+.max-width-70 {
+  max-width: 70% !important;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  padding: 5px;
+}
+
+// Import Bulma & Bulma Extensions
+@import "../../node_modules/bulma/bulma.sass";
+@import "../../node_modules/react-toastify/dist/ReactToastify.css";

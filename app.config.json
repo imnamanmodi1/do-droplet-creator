@@ -1,0 +1,10 @@
+{
+  apps : [
+    {
+      name      : "do-droplet-creator",
+      script    : "npm start",
+      interpreter: "none",
+      args: "serve -p 8443 -T"
+    }
+  ]
+}
